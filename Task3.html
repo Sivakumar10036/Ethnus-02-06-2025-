@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Repeat String</title>
+</head>
+<body>
+    <script>
+        let numb = parseInt(prompt("Enter the number of times to print:"));
+        let name = prompt("Enter the string you want to print:");
+
+        if (!isNaN(numb) && name) {
+            for (let i = 0; i < numb; i++) {
+                document.write(i + ". " + name + "<br>");
+            }
+        } else {
+            document.write("Invalid input.");
+        }
+    </script>
+</body>
+</html>
